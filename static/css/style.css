@@ -33,3 +33,32 @@ body{
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.logo{
+    color: rgb(255, 255, 50);
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.nav-links a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color: darkblue;
+}
