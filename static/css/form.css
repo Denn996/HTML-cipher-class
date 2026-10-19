@@ -55,7 +55,7 @@ h1{
 .input-group label{
    display: block;
    margin-bottom: 7px;
-   color: #334155;
+   color: grey;
    font-size: 14px;
    font-weight: bold;
 }
